@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+:root{
+    --cor1: #FFFFFF;
+    --cor2: #000000;
+    --cor3: #F7BFBF;
+    --cor4: #C43D3D;
+    --cor5: #D47B7D;
+}
+
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+}
+
+body{
+    background-image: url("../img/fundo.jpg"), linear-gradient(var(--cor3), var(--cor5), var(--cor4));
+    background-size: auto;
+}
+
+.cards{
+    max-width: auto;
+    margin-top: 100px;
+}
+
+.container{
+    padding: 30px;
+}
+
+.container:not(:first-child){
+    margin-top: 20px;
+}
+
+.container p{
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+p span{
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px; 
+}
+
+.linha{
+    display: flex;
+}
+
+.linha .direita {
+    align-items: flex-end;
+}
+
+.linha .esquerda {
+    align-items: flex-start;
+}
+
+img{
+    margin: 20px;
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+}
+
+div {
+    display: inline-block;
+}
+
+footer{
+    margin-top: 100px;
+}
